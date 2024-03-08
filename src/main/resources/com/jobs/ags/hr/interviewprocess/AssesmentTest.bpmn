@@ -464,7 +464,7 @@ System.out.println("Interview status in assesment test:"+interviewObj.getStatus(
       <bpmn2:dataInputAssociation id="_Ub-wR5jfEe6ESqh439FORg">
         <bpmn2:targetRef>_2F2E81EA-C8F3-4713-BACB-420EAD949A50_UrlInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_Ub-wSJjfEe6ESqh439FORg">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Ub-wSZjfEe6ESqh439FORg"><![CDATA[https://uat-jobs.agshealth.com/devapi/auth-services/interview/process/status]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Ub-wSZjfEe6ESqh439FORg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/process/status]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Ub-wSpjfEe6ESqh439FORg">_2F2E81EA-C8F3-4713-BACB-420EAD949A50_UrlInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -604,7 +604,7 @@ kcontext.setVariable("interviewResult", interviewObj.getStatus());
       <bpmn2:dataInputAssociation id="_Ub-wXZjfEe6ESqh439FORg">
         <bpmn2:targetRef>_E1F6AAE9-824C-41A6-A59E-E344ABD98C57_UrlInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_Ub-wXpjfEe6ESqh439FORg">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Ub-wX5jfEe6ESqh439FORg"><![CDATA[https://uat-jobs.agshealth.com/devapi/auth-services/interview/link/status]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Ub-wX5jfEe6ESqh439FORg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/link/status]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Ub-wYJjfEe6ESqh439FORg">_E1F6AAE9-824C-41A6-A59E-E344ABD98C57_UrlInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -783,7 +783,7 @@ kcontext.setVariable("maxRetry", "2");
       <bpmn2:dataInputAssociation id="_Ub-wcpjfEe6ESqh439FORg">
         <bpmn2:targetRef>_05CEA616-6ADA-41CD-A988-54469E3BD0D6_UrlInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_Ub-wc5jfEe6ESqh439FORg">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Ub-wdJjfEe6ESqh439FORg"><![CDATA[https://uat-jobs.agshealth.com/devapi/auth-services/interview/allocate/device]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Ub-wdJjfEe6ESqh439FORg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/allocate/device]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Ub-wdZjfEe6ESqh439FORg">_05CEA616-6ADA-41CD-A988-54469E3BD0D6_UrlInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
