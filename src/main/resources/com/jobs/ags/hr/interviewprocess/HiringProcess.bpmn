@@ -595,7 +595,7 @@ kcontext.setVariable("jobType", candidateObj.getJobType());]]></drools:script>
       <bpmn2:dataInputAssociation id="_OiKWZZ4zEe6gUNTR6m-jsg">
         <bpmn2:targetRef>_E17FEFD6-1ADB-4ED1-BBE7-D301CEFF9C0B_UrlInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_OiKWZp4zEe6gUNTR6m-jsg">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiKWZ54zEe6gUNTR6m-jsg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/get/details]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiKWZ54zEe6gUNTR6m-jsg"><![CDATA[http://localhost:8980/auth-services/interview/get/details]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_OiKWaJ4zEe6gUNTR6m-jsg">_E17FEFD6-1ADB-4ED1-BBE7-D301CEFF9C0B_UrlInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
@@ -802,7 +802,7 @@ kcontext.setVariable("appData", appDataMap);
         <bpmn2:dataInputAssociation id="_OiKWgJ4zEe6gUNTR6m-jsg">
           <bpmn2:targetRef>_9153CAC9-A415-4CF3-A32F-15AE8AFC3B99_UrlInputX</bpmn2:targetRef>
           <bpmn2:assignment id="_OiKWgZ4zEe6gUNTR6m-jsg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiKWgp4zEe6gUNTR6m-jsg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/start/panel]]></bpmn2:from>
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiKWgp4zEe6gUNTR6m-jsg"><![CDATA[http://localhost:8980/auth-services/interview/start/panel]]></bpmn2:from>
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_OiKWg54zEe6gUNTR6m-jsg">_9153CAC9-A415-4CF3-A32F-15AE8AFC3B99_UrlInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
@@ -1035,7 +1035,7 @@ kcontext.setVariable("appData", appDataMap);
         <bpmn2:dataInputAssociation id="_OiKWqJ4zEe6gUNTR6m-jsg">
           <bpmn2:targetRef>_4FEC98F0-2365-4801-9E41-B105E13A1CC4_UrlInputX</bpmn2:targetRef>
           <bpmn2:assignment id="_OiKWqZ4zEe6gUNTR6m-jsg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiKWqp4zEe6gUNTR6m-jsg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/start/panel]]></bpmn2:from>
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiKWqp4zEe6gUNTR6m-jsg"><![CDATA[http://localhost:8980/auth-services/interview/start/panel]]></bpmn2:from>
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_OiKWq54zEe6gUNTR6m-jsg">_4FEC98F0-2365-4801-9E41-B105E13A1CC4_UrlInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
@@ -1270,7 +1270,7 @@ kcontext.setVariable("appData", appDataMap);
         <bpmn2:dataInputAssociation id="_OiKW0J4zEe6gUNTR6m-jsg">
           <bpmn2:targetRef>_65B8534E-4D54-4B1E-8F0E-80340C21BEE3_UrlInputX</bpmn2:targetRef>
           <bpmn2:assignment id="_OiKW0Z4zEe6gUNTR6m-jsg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiKW0p4zEe6gUNTR6m-jsg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/start/panel]]></bpmn2:from>
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiKW0p4zEe6gUNTR6m-jsg"><![CDATA[http://localhost:8980/auth-services/interview/start/panel]]></bpmn2:from>
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_OiKW054zEe6gUNTR6m-jsg">_65B8534E-4D54-4B1E-8F0E-80340C21BEE3_UrlInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
@@ -1425,7 +1425,7 @@ kcontext.setVariable("appData", appDataMap);
         <bpmn2:dataInputAssociation id="_OiK9bp4zEe6gUNTR6m-jsg">
           <bpmn2:targetRef>_649EFEB6-A50F-4906-86D6-2ABCD23E037F_UrlInputX</bpmn2:targetRef>
           <bpmn2:assignment id="_OiK9b54zEe6gUNTR6m-jsg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiK9cJ4zEe6gUNTR6m-jsg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/start/panel]]></bpmn2:from>
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiK9cJ4zEe6gUNTR6m-jsg"><![CDATA[http://localhost:8980/auth-services/interview/start/panel]]></bpmn2:from>
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_OiK9cZ4zEe6gUNTR6m-jsg">_649EFEB6-A50F-4906-86D6-2ABCD23E037F_UrlInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
@@ -1680,7 +1680,7 @@ kcontext.setVariable("appData", appDataMap);
         <bpmn2:dataInputAssociation id="_OiK9lp4zEe6gUNTR6m-jsg">
           <bpmn2:targetRef>_480A4845-CF5E-4263-BA11-555DCE40ACF9_UrlInputX</bpmn2:targetRef>
           <bpmn2:assignment id="_OiK9l54zEe6gUNTR6m-jsg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiK9mJ4zEe6gUNTR6m-jsg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/start/panel]]></bpmn2:from>
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiK9mJ4zEe6gUNTR6m-jsg"><![CDATA[http://localhost:8980/auth-services/interview/start/panel]]></bpmn2:from>
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_OiK9mZ4zEe6gUNTR6m-jsg">_480A4845-CF5E-4263-BA11-555DCE40ACF9_UrlInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
@@ -2000,7 +2000,7 @@ kcontext.setVariable("appData", appDataMap);
         <bpmn2:dataInputAssociation id="_OiK9z54zEe6gUNTR6m-jsg">
           <bpmn2:targetRef>_DF7D8421-7CDE-4BB5-8F5E-F7C49B14F9A2_UrlInputX</bpmn2:targetRef>
           <bpmn2:assignment id="_OiK90J4zEe6gUNTR6m-jsg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiK90Z4zEe6gUNTR6m-jsg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/start/panel]]></bpmn2:from>
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiK90Z4zEe6gUNTR6m-jsg"><![CDATA[http://localhost:8980/auth-services/interview/start/panel]]></bpmn2:from>
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_OiK90p4zEe6gUNTR6m-jsg">_DF7D8421-7CDE-4BB5-8F5E-F7C49B14F9A2_UrlInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
@@ -2241,7 +2241,7 @@ kcontext.setVariable("appData", appDataMap);
         <bpmn2:dataInputAssociation id="_OiK9954zEe6gUNTR6m-jsg">
           <bpmn2:targetRef>_E148F2D6-DCC2-440A-B5B1-FD0BDB1F06B0_UrlInputX</bpmn2:targetRef>
           <bpmn2:assignment id="_OiK9-J4zEe6gUNTR6m-jsg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiK9-Z4zEe6gUNTR6m-jsg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/start/panel]]></bpmn2:from>
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiK9-Z4zEe6gUNTR6m-jsg"><![CDATA[http://localhost:8980/auth-services/interview/start/panel]]></bpmn2:from>
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_OiK9-p4zEe6gUNTR6m-jsg">_E148F2D6-DCC2-440A-B5B1-FD0BDB1F06B0_UrlInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
@@ -2702,7 +2702,7 @@ kcontext.setVariable("appData", appDataMap);
         <bpmn2:dataInputAssociation id="_OiK-RZ4zEe6gUNTR6m-jsg">
           <bpmn2:targetRef>_B55F76EE-2168-4C65-8F64-9030DCEF74E1_UrlInputX</bpmn2:targetRef>
           <bpmn2:assignment id="_OiK-Rp4zEe6gUNTR6m-jsg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiK-R54zEe6gUNTR6m-jsg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/start/panel]]></bpmn2:from>
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiK-R54zEe6gUNTR6m-jsg"><![CDATA[http://localhost:8980/auth-services/interview/start/panel]]></bpmn2:from>
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_OiK-SJ4zEe6gUNTR6m-jsg">_B55F76EE-2168-4C65-8F64-9030DCEF74E1_UrlInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
@@ -2905,7 +2905,7 @@ kcontext.setVariable("appData", appDataMap);
         <bpmn2:dataInputAssociation id="_OiK-Xp4zEe6gUNTR6m-jsg">
           <bpmn2:targetRef>_887847E7-3263-4B25-B573-08B5D5967ED4_UrlInputX</bpmn2:targetRef>
           <bpmn2:assignment id="_OiK-X54zEe6gUNTR6m-jsg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiK-YJ4zEe6gUNTR6m-jsg"><![CDATA[https://uat-jobs.agshealth.com/api/auth-services/interview/start/panel]]></bpmn2:from>
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_OiK-YJ4zEe6gUNTR6m-jsg"><![CDATA[http://localhost:8980/auth-services/interview/start/panel]]></bpmn2:from>
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_OiK-YZ4zEe6gUNTR6m-jsg">_887847E7-3263-4B25-B573-08B5D5967ED4_UrlInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
